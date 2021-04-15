@@ -1,5 +1,12 @@
+ function insert(num)
+{
+  var numero = document.getElementById('resultado').innerHTML; 
+  document.getElementById('resultado').innerHTML = numero + num;
+}
 
-function Calculadora (){
+
+
+/*function Calculadora (){
     this.display = document.querySelector('.display');
     this.inicia = function(){
         document.addEventListener()
@@ -7,3 +14,5 @@ function Calculadora (){
 }
 
 const
+
+*/

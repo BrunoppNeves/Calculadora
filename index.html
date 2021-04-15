@@ -12,7 +12,7 @@
 
 <body>
   <div class="calculadora">
-    <form action=""><input type="text" class="display" disabled value="0"></form>
+   <p id= "resultado"></p>
 
     <!-- tr - linha -->
     <!-- td - coluna -->
@@ -24,25 +24,25 @@
         <td> <input type="button" class="button" id="operator" onclick="clicar()" value="/"></td>
       </tr>
       <tr>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="7"></td>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="8"></td>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="9"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('7')" value="7"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('8')" value="8"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('9')" value="9"></td>
         <td> <input type="button" class="button" id="operator" onclick="clicar()" value="x"></td>
       </tr>
       <tr>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="4"></td>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="5"></td>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="6"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('4')" value="4"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('5')" value="5"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('6')" value="6"></td>
         <td> <input type="button" class="button" id="operator" onclick="clicar()" value="-"></td>
       </tr>
       <tr>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="1"></td>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="2"></td>
-        <td> <input type="button" class="button" id="number" onclick="clicar()" value="3"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('1')" value="1"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('2')" value="2"></td>
+        <td> <input type="button" class="button" id="number" onclick="insert('3')" value="3"></td>
         <td> <input type="button" class="button" id="operator" onclick="clicar()" value="+"></td>
       </tr>
       <tr>
-        <td colspan="2"> <input type="button" class="button" onclick="clicar()" value="0" id="zero"></td>
+        <td colspan="2"> <input type="button" class="button" onclick="insert('0')" value="0" id="zero"></td>
         <td> <input type="button" class="button" id="number" onclick="clicar()" value=","></td>
         <td> <input type="button" class="button" id="operator" onclick="clicar()" value="="></td>
       </tr>

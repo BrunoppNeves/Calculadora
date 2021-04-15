@@ -61,7 +61,7 @@ table {
     background-color: #ddd;
 }
 
-.calculadora .display {
+#resultado {
     background-color: black;
     color: #ddd;
     border: 2px solid black;
