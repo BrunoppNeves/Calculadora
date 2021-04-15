@@ -24,10 +24,37 @@ table {
     height: 60px;
     font-size: 20px;
     margin: 4px;
+    cursor: pointer;
+    transition: 200ms;
+    outline: none;
 }
 
 .calculadora table #zero {
     width: 126px;
     text-align: left;
     padding-left: 23px;
+    background: #363636;
+}
+
+.calculadora table #gray {
+    background-color: gray;
+    color: black;
+}
+
+.calculadora table #number {
+    background-color: #363636;
+}
+
+.calculadora table #operator {
+    background-color: orange;
+}
+
+.calculadora table #operator:focus {
+    background-color: #ddd;
+}
+
+.calculadora table #number:hover,
+.calculadora table #gray:hover,
+.calculadora table #zero:hover {
+    background-color: #ddd;
 }
