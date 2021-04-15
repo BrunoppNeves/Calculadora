@@ -4,6 +4,11 @@
   document.getElementById('resultado').innerHTML = numero + num;
 }
 
+function limpar()
+{
+    document.getElementById('resultado').innerHTML = "";
+}
+
 
 
 /*function Calculadora (){
